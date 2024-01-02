@@ -62,7 +62,8 @@ class YouTubeDownloader(customtkinter.CTk):
 
             video.download(save_path)
             self.finish_label.configure(
-                text=f"Downloaded in: {save_path}\nНазвание: {yt.title}"
+                text=f"Downloaded in: {save_path}\nНазвание: {yt.title}",
+                text_color="black"
             )
         except Exception as err:
             self.finish_label.configure(
