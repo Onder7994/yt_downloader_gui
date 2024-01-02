@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yt_downloader_gui"
-version = "0.0.1"
+version = "0.0.2"
 description = "Simple GUI youtube downloader"
 authors = ["Trusikhin Andrei <andrei.trusikhin@gmail.com>"]
 license = "MIT"
@@ -13,6 +13,11 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/Onder7994/yt_downloader_gui"
+"Repository" = "https://github.com/Onder7994/yt_downloader_gui"
+"Documentation" = "https://github.com/Onder7994/yt_downloader_gui#readme"
 
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
